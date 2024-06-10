@@ -4,7 +4,7 @@ if (!requireNamespace("ggplot2", quietly = TRUE)) {
 }
 library(ggplot2)
 
-# 假设数据
+# 数据
 experiment_data <- data.frame(
   Participant = rep(1:15, each=3),
   Environment = rep(c('Simple', 'Medium', 'Complex'), 15),
